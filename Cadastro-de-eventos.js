@@ -1,7 +1,8 @@
 let ListaDeParticipantes= [ 'Joe', 'Johnny', 'Junior']
-let ListaDePalestrantes= [ 'Prof. X', 'Mr. Y', 'Doc. Z']
-let DataDoEvento= Date(2021-08-30)
-let DataAtual= Date(2021-09-14)
+let ListaDePalestrantes= [ 'Mr. Y', 'Doc. Z']
+let NomePalestrante= 'Prof. X'
+let DataDoEvento= '2021-08-30'
+let DataAtual= '2021-09-16'
 let Idade= 18
 let Nome= 'Jonas Jr'
 let PodeCadastrar= true
@@ -40,4 +41,9 @@ if (PodeCadastrar){
 console.log('Listando Participantes: ')
 for (let i=0;i<ListaDeParticipantes.length;i++){
     console.log(ListaDeParticipantes[i])
-}console.log('Lista de Palestrantes: ', ListaDePalestrantes)
+}
+
+console.log('Lista de Palestrantes: ')
+for (let j=0;j<ListaDePalestrantes.length;j++){
+    console.log(ListaDePalestrantes[j])
+}
