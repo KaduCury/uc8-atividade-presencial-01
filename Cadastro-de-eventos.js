@@ -1,7 +1,6 @@
 let ListaDeParticipantes= [ 'Joe', 'Johnny', 'Junior']
-let ListaDePalestrantes= [ 'Mr. Y', 'Doc. Z']
-let NomePalestrante= 'Prof. X'
-let DataDoEvento= '2021-08-30'
+let ListaDePalestrantes= [ 'Prof. X', 'Mr. Y', 'Doc. Z']
+let DataDoEvento= '2021-10-30'
 let DataAtual= '2021-09-16'
 let Idade= 18
 let Nome= 'Jonas Jr'
